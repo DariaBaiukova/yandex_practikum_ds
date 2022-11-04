@@ -30,3 +30,5 @@
 | Wall_time_fit | 10.4 s | 27.2 s | 20.7 s | 7.68 s |
 | Wall time_pred  | 1.15 s | 293ms | 135 ms | 409 ms |
 | Rmse | 1554.6486711858959 | 1579.967149283192 | 4283.770308916413 | 3356.9753490965627 |
+
+LGBMRegressor результат лучше чем CatBoostRegressor.Обучение по сравнению c CatBoostRegressor,занимает меньше времени , CatBoostRegressor в 2,72 раза дольше обучается .CatBoostRegressor даёт предсказания в 3,5 разa быстрее чем LGBMRegressor. Для данной задачи рекомендован LGBMRegressor, показал результат лучше и требует меньше времени
